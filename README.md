@@ -5,7 +5,9 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jekyll-test-metadata', git: 'git://github.com/femshima/jekyll-test-metadata.git', group: :jekyll_plugins
+gem 'jekyll-test-metadata', git: 'https://github.com/femshima/jekyll-test-metadata.git',
+                            branch: 'main',
+                            group: :jekyll_plugins
 ```
 
 And then execute:
